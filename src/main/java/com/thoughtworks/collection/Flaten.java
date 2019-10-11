@@ -41,7 +41,7 @@ public class Flaten {
                 oneDArray.add(array[i][j]);
             }
         }
-        
+
         return oneDArray.stream().distinct().collect(Collectors.toList());
     }
 }
